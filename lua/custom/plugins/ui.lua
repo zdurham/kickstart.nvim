@@ -17,4 +17,7 @@ return {
       },
     },
   },
+  { 'echasnovski/mini.bufremove', version = false, keys = {
+    { '<leader>bd', '<cmd>bdelete<CR>', desc = 'Close buffer' },
+  } },
 }
